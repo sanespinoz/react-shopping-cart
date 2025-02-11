@@ -1,0 +1,19 @@
+.products {
+  padding: 120px 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.no-products {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
